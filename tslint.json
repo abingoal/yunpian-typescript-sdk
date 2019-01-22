@@ -1,0 +1,12 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "member-access": [true, "no-public"],
+    "trailing-comma": false,
+    "object-literal-key-quotes": false,
+    "arrow-parens": false
+  },
+  "rulesDirectory": []
+}

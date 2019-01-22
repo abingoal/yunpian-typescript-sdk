@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "removeComments": false,
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "pretty": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules", "dist", "interface"]
+}

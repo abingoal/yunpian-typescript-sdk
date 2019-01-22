@@ -1,0 +1,28 @@
+{
+  "name": "yunpian-typescript-sdk",
+  "version": "1.0.0",
+  "description": "云片网typescript版本sdk(非官方)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abingoal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "yunpianHost": {
+    "sms": "https://sms.yunpian.com/v2/sms",
+    "tpl": "https://sms.yunpian.com/v2/tpl",
+    "sign": "https://sms.yunpian.com/v2/sign",
+    "user": "https://sms.yunpian.com/v2/user",
+    "short_url": "https://sms.yunpian.com/v2/short_url",
+    "voice": "https://voice.yunpian.com/v2/voice",
+    "video": "https://vsms.yunpian.com/v2/vsms"
+  }
+}
