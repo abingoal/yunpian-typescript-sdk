@@ -14,7 +14,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.1"
   },
   "yunpianHost": {
     "sms": "https://sms.yunpian.com/v2/sms",
